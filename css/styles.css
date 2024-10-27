@@ -668,7 +668,8 @@ img {
   border: none;
 }
 
-.button-icon-close:hover .icon-close {
+.button-icon-close:hover .icon-close,
+.button-icon-close:focus .icon-close {
   fill: #ffffff;
 }
 
@@ -718,7 +719,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .icon-modal {
@@ -743,6 +744,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-field-text-area {
+  margin-bottom: 16px;
 }
 
 .modal-text-area:focus {
@@ -772,7 +777,7 @@ img {
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -782,7 +787,6 @@ img {
 }
 
 .icon-vector-conteiner {
-  display: inline-flex;
 }
 
 .modal-check:checked + .modal-check-text span {
